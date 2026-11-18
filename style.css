@@ -17,3 +17,12 @@ h1{overflow-wrap:anywhere}.report-heading>div:first-child{min-width:0}
 @media print{body{background:white;color:#222;font-size:12px}.sidebar,.topbar,.app-footer,.mobile-nav,.report-tools,.back-button,.stepper,dialog,.toast,.report-side .context-card,.report-disclaimer button{display:none!important}.app-shell{margin:0}main{padding:0;max-width:none}.page-heading{margin:0 0 20px}.report-heading h1{font-size:24px}.report-layout{display:block}.report-main{display:block}.report-section,.report-summary,.report-side .panel{box-shadow:none;border:1px solid #ddd;margin-bottom:16px;break-inside:avoid}.report-side{display:block}.report-section{padding:20px}.demo-notice{font-size:10px;background:#fafafa;border:1px solid #ddd}.report-disclaimer{color:#666}.risk-item p,.timeline-item p{color:#555}.summary-tags span{border:1px solid #ddd}.checklist input{appearance:none;width:12px;height:12px;border:1px solid #999}.checklist input:checked:after{content:"✓"}.view-transition{animation:none}}
 
 @media print{.print-brand{display:block;margin:0 0 20px}.print-brand img{width:175px;height:auto}.report-side{display:none!important}.report-gate{display:grid;grid-template-columns:1fr 160px;padding:20px;background:#faf9f4;border:1px solid #ccc;break-inside:avoid}.gate-copy>small{font-size:10px}.gate-copy>.btn,.gate-reference button,.gate-qr a{display:none!important}.gate-qr{border:1px solid #ddd}.gate-qr img{max-width:135px}.gate-copy h2{font-size:19px}.gate-copy p{color:#555}.report-disclaimer{font-size:10px;color:#666}.preview-section{break-inside:auto}.preview-module{break-inside:avoid}.risk-item{padding-top:15px;padding-bottom:15px}.report-gate .locked-modules div{color:#555}}
+
+/* Full AI report */
+.ai-report-copy,.ai-report-list,.ai-action-stage { font-size:14px; line-height:1.9; color:var(--muted,#666); white-space:pre-line; overflow-wrap:anywhere; }
+.ai-report-list { padding-left:22px; margin:16px 0 0; }
+.ai-report-list li + li { margin-top:10px; }
+.ai-action-stage { margin-top:20px; }
+.ai-action-stage h3 { color:var(--ink,#252a24); font-size:15px; }
+.ai-evidence { font-size:12px!important; padding:10px 12px; background:#f5f4ed; border-radius:8px; white-space:pre-line; }
+.ai-generation-error { padding:14px 16px; margin:18px 0; border:1px solid #e9c2ad; border-radius:10px; color:#8c3e20; background:#fff1e8; font-size:14px; line-height:1.7; }

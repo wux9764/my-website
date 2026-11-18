@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#f7f7f2">
-  <meta name="description" content="犇诚汇财税合规助手：拍照上传资料，梳理财税问题，查看清晰可执行的合规方案。当前为交互演示版。">
+  <meta name="description" content="犇诚汇财税合规助手：拍照上传资料，梳理财税问题，查看清晰可执行的合规方案。支持豆包视觉 AI 资料分析。">
   <title>犇诚汇 · 财税合规助手</title>
   <link rel="icon" type="image/png" href="assets/company-mark-original.png">
   <link rel="stylesheet" href="style.css">
+  <script defer src="ai.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
@@ -48,7 +49,7 @@
 <div class="app-shell">
  <header class="topbar"><div class="topbar-title"><a class="mobile-brand" href="#start" data-view="start" aria-label="犇诚汇财税 首页"><img src="assets/company-mark-original.png" width="119" height="128" alt="犇诚汇财税原始标志"></a><span>企业服务 <span class="breadcrumb-slash">/</span> <strong id="page-label">财税合规助手</strong></span><span class="version-pill">体验版</span></div><div class="topbar-actions"><button class="plain-btn help-button" data-view="guide"><svg class="icon"><use href="#i-help"/></svg><span>使用帮助</span></button><span class="topbar-divider"></span><button class="consult-top" data-action="consult"><span class="online-dot"></span>咨询顾问<svg class="icon"><use href="#i-arrow"/></svg></button></div></header>
  <main id="main" tabindex="-1"></main>
- <footer class="app-footer"><span>© 2026 犇诚汇财税 <span class="footer-divider">·</span> 让经营更安心</span><span><svg class="icon"><use href="#i-lock"/></svg> 图片仅在本机预览 <span class="footer-divider">·</span> 交互原型</span></footer>
+ <footer class="app-footer"><span>© 2026 犇诚汇财税 <span class="footer-divider">·</span> 让经营更安心</span><span><svg class="icon"><use href="#i-lock"/></svg> 点击生成后提交 AI 分析 <span class="footer-divider">·</span> AI 参考方案</span></footer>
 </div>
 <nav class="mobile-nav" aria-label="移动端导航"><button data-view="start" class="active"><svg class="icon"><use href="#i-grid"/></svg>开始体检</button><button data-view="reports"><svg class="icon"><use href="#i-file"/></svg>我的方案</button><button data-view="guide"><svg class="icon"><use href="#i-book"/></svg>使用指南</button><button data-action="consult"><svg class="icon"><use href="#i-chat"/></svg>联系顾问</button></nav>
 <input type="file" id="file-input" accept="image/jpeg,image/png,image/webp" multiple hidden>
